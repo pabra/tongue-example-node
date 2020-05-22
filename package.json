@@ -9,13 +9,13 @@
   "dependencies": {
     "@pabra/tongue-translate": "0.1.7",
     "@types/express": "4.17.6",
-    "@types/node": "14.0.4",
+    "@types/node": "14.0.5",
     "express": "4.17.1",
     "ts-node": "8.10.1",
     "typescript": "latest"
   },
   "devDependencies": {
-    "nodemon": "1.18.4"
+    "nodemon": "2.0.4"
   },
   "keywords": ["tongue", "nodejs", "typescript", "translate"]
 }
