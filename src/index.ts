@@ -23,7 +23,7 @@ app.get('/api/:lang/greet/:name?', (req, res) => {
     // note that the translation of "greeting" requires the 3rd argument to be
     // an object with "name" as key and a string as value
     // try to add a typo -> change 3rd argument `{ name: name }` to `{ Name: name }` (capital N in key name)
-    // try to remothe the 3rd argument of the translate function
+    // try to remote the 3rd argument of the translate function
     // try to add a typo -> change "greeting" to "greting" (remomve one "e")
     res.send(translate(translateLang, 'greeting', { name: name }));
   } else {
