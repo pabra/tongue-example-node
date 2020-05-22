@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script type="application/javascript" src="script.js"></script>
+    <title>tongue</title>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tbody>
+          <tr>
+            <td colspan="2" style="font-size: small">
+              (Keep in mind, we have no translation file for french ("fr") yet.)
+            </td>
+          </tr>
+          <tr>
+            <td>language:</td>
+            <td>
+              <select name="lang">
+                <option>en</option>
+                <option>de</option>
+                <option selected>es</option>
+                <option>fr</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="padding-top: 25px; font-size: small">
+              (Note that we use a different translation entry depending on
+              whether or not you provided a name here.)
+            </td>
+          </tr>
+          <tr>
+            <td>name:</td>
+            <td><input name="name" type="text" value="Bob" /></td>
+          </tr>
+        </tbody>
+      </table>
+      <button id="go">GO!</button><br />
+    </form>
+    <textarea id="log" readonly rows="20" cols="50"></textarea>
+  </body>
+</html>

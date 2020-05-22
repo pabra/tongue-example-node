@@ -1,0 +1,4 @@
+{
+  "hello world": {},
+  "greeting": { "args": { "name": "the name to greet" } }
+}
